@@ -1,0 +1,16 @@
+var             | Sentença                                | Resultado
+
+nota = 10       | nota < = 10                             | true
+
+nota = 6        | (nota <= 6) and (faltas <=3)            | false 
+faltas = 4      
+
+convidados = 3  | (convidados > 4) or (fumantes == true)  | false
+fumante = false  
+
+dia = "qua"     | (dia == "sab) or (dia == "qua)          | false
+
+feriado = true  | not(feriado == false)                   | true
+
+dia = "ter"     | (dia == "seg" or not(feriado(==false))) | false
+feriado = false
