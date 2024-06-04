@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.header span {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+img{
+    width: 450px;
+    height: 450px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
