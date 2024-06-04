@@ -16,6 +16,15 @@ body{
     
 }
 
+.header a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 .title{
     display: flex;
     justify-content: center;
@@ -69,4 +78,9 @@ input[type=submit]:hover {
     background-color: #333;
     color: white;
     text-align: center;
+}
+
+img{
+  width: 275px;
+  height: 183px;
 }
