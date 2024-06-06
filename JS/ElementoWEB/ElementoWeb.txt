@@ -1,0 +1,1 @@
+O botão de enviar tarefa da Proz utiliza JS, para interação com usuário.
