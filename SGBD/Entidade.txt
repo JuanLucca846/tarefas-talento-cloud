@@ -2,3 +2,19 @@ Produto
 Nome
 Descrição 
 Categorias 
+
+Atributos Simples:
+
+ID_Aluno: Um identificador único para cada aluno (por exemplo, matrícula).
+Nome: Nome do aluno.
+Atributo Composto:
+
+Endereço:
+Rua: Nome da rua.
+Número: Número da residência.
+Cidade: Cidade onde o aluno mora.
+Estado: Estado onde o aluno mora.
+CEP: Código postal.
+Atributo Multivalorado:
+
+Telefones: Lista de números de telefone do aluno.

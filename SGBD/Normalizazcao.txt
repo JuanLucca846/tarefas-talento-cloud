@@ -1,0 +1,51 @@
+Tabela Original (não normalizada)
+
+ClienteID 	NomeCliente 	Telefones 		Endereços
+
+1 		João Silva 	1234-5678, 8765-4321 	Rua A, 123; Rua B, 456
+
+2 		Maria Souza 	4321-1234 		Rua C, 789
+
+3 		Ana Lima 	5678-8765, 1234-4321 	Rua D, 321; Rua E, 654
+
+Tabela Normalizada (1FN)
+
+Para atingir a 1FN, precisamos criar tabelas separadas para Telefones e Endereços, onde cada linha terá apenas um valor atômico por coluna.
+
+Tabela Cliente
+
+ClienteID 	NomeCliente
+
+1 		João Silva
+
+2 		Maria Souza
+
+3 		Ana Lima
+
+Tabela Telefones
+
+ClienteID 	Telefone
+
+1 		1234-5678
+
+1 		8765-4321
+
+2 		4321-1234
+
+3 		5678-8765
+
+3 		1234-4321
+
+Tabela Endereços
+
+ClienteID 	Endereço
+
+1 		Rua A, 123
+
+1 		Rua B, 456
+
+2 		Rua C, 789
+
+3 		Rua D, 321
+
+3 		Rua E, 654 
