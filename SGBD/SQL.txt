@@ -1,0 +1,55 @@
+-- 1. Mostrar as informações apenas dos alunos aprovados. A aprovação é acima de 7,0.
+
+SELECT * FROM ALUNO WHERE Nota > 7.0;
+
+-- 2. Exibir as informações dos alunos do primeiro ano com nota maior ou igual a 8,0.
+
+SELECT * FROM ALUNO WHERE Ano = 1 AND Nota >= 8.0;
+
+-- 3. Exibir apenas os nomes e as notas dos alunos.
+
+SELECT Nome, Nota FROM ALUNO;
+
+-- 4. Criar uma tabela PROFESSOR que apresente apenas o primeiro e o último nome do professor.
+
+CREATE TABLE PROFESSOR (
+
+PNome VARCHAR(50),
+
+UNome VARCHAR(50)
+
+);
+
+-- 5. Criar uma tabela ALUNO com o primeiro e o último nome de cada.
+
+CREATE TABLE ALUNO_NOMES (
+
+PNome VARCHAR(50),
+
+UNome VARCHAR(50)
+
+);
+
+-- 6. Mostrar o resultado da união entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR.
+
+SELECT PNome, UNome FROM ALUNO_NOMES
+
+UNION
+
+SELECT PNome, UNome FROM PROFESSOR;
+
+-- 7. Exibir o resultado da intersecção entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR.
+
+SELECT PNome, UNome FROM ALUNO_NOMES
+
+INTERSECT
+
+SELECT PNome, UNome FROM PROFESSOR;
+
+-- 8. Exibir o resultado da diferença entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR.
+
+SELECT PNome, UNome FROM ALUNO_NOMES
+
+EXCEPT
+
+SELECT PNome, UNome FROM PROFESSOR;
