@@ -1,0 +1,3 @@
+Uma estrutura cliente-servidor é um modelo de arquitetura de rede em que um programa de computador (cliente), 
+solicita um serviço ou recurso de outro programa de computador (servidor), recebendo uma resposta com as informações solicitadas por meio de 
+protocolos de rede em infraestruturas de TI.
