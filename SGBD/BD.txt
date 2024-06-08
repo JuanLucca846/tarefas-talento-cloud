@@ -5,3 +5,42 @@ O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguage
 MongoDB
 MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, 
 escrito na linguagem C++. 
+
+MySQL
+Descrição:
+MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto, amplamente utilizado em aplicações web e suportado por Oracle Corporation.
+
+Características:
+
+Código Aberto: Disponível sob GPL, com versões comerciais.
+Alta Performance: Ideal para aplicações que requerem velocidade.
+Integração Fácil: Compatível com diversas linguagens de programação.
+Replication e Clustering: Suporte para replicação e clustering.
+Vantagens:
+
+Rápido e Confiável: Ótimo desempenho para leituras e escritas.
+Ampla Documentação: Muitos recursos de aprendizagem e suporte.
+Escalabilidade: Suporta grandes volumes de dados.
+Desvantagens:
+
+Funcionalidades Avançadas Limitadas: Menos recursos avançados comparado a outros SGBDs.
+Licenciamento Comercial: Pode ser caro para grandes empresas.
+PostgreSQL
+Descrição:
+PostgreSQL é um sistema de gerenciamento de banco de dados relacional e orientado a objetos, de código aberto, conhecido por sua robustez e conformidade com os padrões SQL.
+
+Características:
+
+Extensibilidade: Suporta tipos de dados personalizados e funções.
+Conformidade com Padrões: Altamente compatível com os padrões SQL.
+Robustez: Foco na integridade e consistência dos dados.
+Suporte a Transações: Transações ACID completas.
+Vantagens:
+
+Funcionalidades Avançadas: Suporte a operações complexas e tipos de dados personalizados.
+Comunidade Ativa: Forte suporte comunitário e documentação.
+Escalabilidade e Desempenho: Boa para aplicações complexas e grandes volumes de dados.
+Desvantagens:
+
+Curva de Aprendizado: Mais complexo de configurar e gerenciar.
+Desempenho de Escrita: Pode ser mais lento em operações de escrita intensiva comparado a outros SGBDs.
