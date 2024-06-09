@@ -1,0 +1,3 @@
+Para fortalecer as senhas, é recomendado utilizar: combinações de letras maiúsculas, minúsculas, números e caracteres especiais; 
+evitar informações pessoais facilmente identificáveis; 
+e optar por frases ou palavras obscuras para aumentar a complexidade e resistência a ataques de força bruta.
