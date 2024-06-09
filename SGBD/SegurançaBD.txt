@@ -1,0 +1,3 @@
+Os pilares fundamentais da segurança de dados incluem: controle de acesso restrito, criptografia de dados sensíveis e implementação de políticas de 
+backup e recuperação robustas. Ao seguir esses princípios, o novo banco de dados pode garantir a integridade, confidencialidade e disponibilidade dos dados, 
+protegendo as informações da empresa contra ameaças e garantindo conformidade com regulamentações de privacidade.
